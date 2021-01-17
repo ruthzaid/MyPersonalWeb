@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ruth Zaid</title>
+    <link rel="icon" href="./asset/images/headshot.JPG">
+    <link rel="stylesheet" href="./asset/css/blog.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html" >HOME</a></li>
+                <li><a href="gallery.html" >GALLERY</a></li>
+                <li><a href="blog.html" >BLOG</a></li>
+                <li><a href="myworks.html" >MY WORKS</a></li>
+                <li><a href="contact.html" >CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="content">
+
+        <section>
+            <p class="title">Use of Relative Size When Styling a Responsive Element</p>
+            <p class="date">March 12 2020</p><br>
+            <article>
+
+                <p>
+                    Responsive web design allows for elements to be automatically changed
+                    so that everything fits properly in all types of devices. Responsive
+                    elements are able to automatically resize (shrink or enlarge), hide
+                    and/or move. This short blog will focus on the pros and cons of using 
+                    relative size units in css (%, em, rem) to create an element responsive to its device.
+                </p><br>
+                    While it is not exactly a requirement or necessary to use responsive elements 
+                    in terms of size as most browsers have incorporated zoom features, there are many
+                    <a href="https://css-tricks.com/building-resizeable-components-relative-css-units/" target="_blank">benefits</a>
+                    to responsive components approach (both at the designer/developer and user-end).
+                <p><br>
+                <p>
+                    A few reasons why responsive elements are beneficial . . .
+                    <li> 
+                        It is more logical for designers/developers to focus on the sizes of elements 
+                        relative to screen size and in proportion to each other rather than in specific size units. 
+                    </li>
+                    <li> 
+                        Responsive elements will ensure a site looks well put together on a screen of any size. 
+                        They may also ensure that a site is mobile-friendly.
+                    </li>
+                    <li> Components in the site will always be in proportion. </li>
+                </p>
+            </article>
+        </section>
+
+        <section>
+            <p class="title">The Default 16px Width Font of Browsers</p>
+            <p class="date">March 13 2020</p><br>
+            <article>
+
+                <p>
+                    One may wonder about how browsers interpret custom font-sizes. 
+                    In almost every browser, the standard root element font-size is assumed to be 16px.
+                </p>
+                <p>
+                    As a result, when one sets a custom font-size, be it 200px or any other size really,
+                    the browser interprets that size in terms of the root element size 16px.
+                </p>
+            </article>
+        </section>
+
+        <section>
+            <p class="title">Changes in CSS3</p>
+            <p class="date">March 17 2020</p><br>
+            <article>
+
+                <p>
+                    This blog update will discuss some of the 
+                    <a href="http://www.instantshift.com/2017/08/30/know-things-about-implementation-css3/" target="_blank">many changes</a>
+                    that have been made in CSS3 briefly by picking the most important ones.
+                </p><br>
+                <p>
+                    <b>on Backgrounds, Borders and more:</b>
+                    many available options to play with . . .
+                    <li>multiple backgrounds - multiple images can be set on the background</li>
+                    <li>image border - images can be set as borders</li>
+                    <li>rounded corners - new "border-radius" property allows for rounded corners</li>
+                    <li>opacity - elements can be made see-through or even completely transparent</li>
+                    <li>miscellaneous - new colors and fonts added</li>
+                </p><br>
+                <p>
+                    <b>on Relative Sizing:</b>
+                    CSS3 provided designers and developers with the new alternative relative font-sizing units
+                    based on viewport dimensions . . .
+                    <li>vw - viewport width (1vw = 1% of viewport width)</li>
+                    <li>vh - viewport height (1vh = 1% of viewport height)</li>
+                </p><br>
+                <p>
+                    <b>on Grid Layout:</b>
+                    CSS3 allows web designers/developers to build a page layout using 
+                    a two dimensional system that can deal with both rows and columns . . .
+                    <li>explicit grids - area defined with "grid-template-rows" and "grid-template-columns"</li>
+                    <li>implicit grids - automatically generated when defined grids are less than actual grids</li>
+                    <li>
+                        flexible lengths (NEW) - new "fr" unit introduced that allows for free space
+                        remaining in the grid container to be viewed when checked
+                    </li> 
+                    
+                </p><br>
+                <p>
+                    <b>on Flexible Box:</b>
+                    As opposed to a box, the flexible box adapts the layout of the page according to 
+                    the diverse screen sizes and display gadgets . . .
+                    <li>does not use floats (cleaner and simpler in terms of usage)</li>
+                    <li>container margin does not fall apart (doesn't depend on margin of information)</li>
+                </p><br>
+                <p>
+                    <b>on Media Queries:</b>
+                    designed to inherently support responsive design
+                </p><br>
+            </article>
+        </section>
+
+    </div>
+</body>
+</html>
