@@ -45,7 +45,7 @@
                     <a class="nav-link" href="./about.html" style="font-family: Roboto, Arial, Helvetica, Verdana, sans-serif;">
                       <span class="icon">
                         <i aria-hidden="true" class="fas fa-user-secret" style="padding-right: 5px;"></i> 
-                        BLOG
+                        ABOUT
                       </span>
                     </a>
                   </li>
@@ -99,88 +99,56 @@
         </div>
       </header>
 
-    <!--creating space between navigation and page-->
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-
-    <table>
-        <tr>
-            <td width="550"></td>
-            <td><h1>CONTACT</h1></td>
-            <td width="550"></td>
-        </tr>
-    </table>
-
-    <table>
-        <tr>
-            <td width="395"></td>
-            <td align="center">
-                <p>
-                I would love to get to know you . . . <br>
-                Feel free to follow the links to my social media and connect with me. <br>
-                You may also fill in the form below to connect with me. <br>
-                I'll look forward to that :) <br>
-                </p>
-            </td>
-            <td width="395"></td>
-        </tr>
-    </table>
-
-    <table>
-        <tr>
-            <td width="565"></td>
-            <td>
-                <a href="https://twitter.com" target="_blank"><img src="assets/images/iconfinder twitter.png" width="30px"></a>
-                <a href="https://gmail.com" target="_blank"><img src="assets/images/iconfinder mail.png" width="30px"></a>
-                <a href="https://instagram.com" target="_blank"><img src="assets/images/iconfinder instagram.png" width="30px"></a>    
-            </td>
-            <td width="565"></td>
-        </tr>
-    </table>
-
-    <!--creating space-->
-    <tr><br></tr>
-    <tr><br></tr>
-
     <!--form-->
-    <form  action="mailto:se.ruth.zaid@gmail.com" method="GET" enctype="UTF-8">
-    <table>
-
-        <tr>
-            <td rowspan="5" width="460"></td>
-            <td>
-                <label for ="fname">First Name *</label> <br> <input type="text" name="fname" id="" pattern="[a-z,A-Z]{1,15}" required>
-            </td>
-            <td>
-                <label for ="lname">Last Name *</label> <br> <input type="text" name="lname" id="" pattern="[a-z,A-Z]{1,15}" required>
-            </td>
-        </tr>
-
-        <tr>
-            <td colspan="44">
-                <label for ="email">Email *</label> <br> <input type="email" name="email" id="email">
-            </td>
-        </tr>
-
-        <tr>
-            <td colspan="2">
-                <label for ="subject">Subject *</label> <br> <textarea name="subject" id="subject" cols="44" rows="2"></textarea>
-            </td>
-        </tr>
-
-        <tr>
-            <td colspan="2">
-                <label for ="message">Message *</label> <br> <textarea name="message" id="message" cols="44" rows="10"></textarea>
-            </td>
-        </tr>
-
-        <tr>
-            <td colspan="2">
-                <input type="submit" value="Submit">
-            </td>
-        </tr>
-        
-    </table>
-    </form>
+    <body class="contact-styles">
+        <form class="form-class" action="">
+            <div class="title">
+                <h2><strong>SEND ME A MESSAGE</strong></h2>
+                <p>I would like to get to know you... <br>
+                    Feel free to follow the links to my social media and connect with me 
+                    You may also fill in the form below to connect with me
+                </p>
+                <div class="social-media">
+                    <ul>
+                        <li class="nav-item socials">
+                            <a class="nav-link" href="#"
+                              ><i class="fa fa-instagram" aria-hidden="true"></i
+                            ></a>
+                          </li>
+                          <li class="nav-item socials">
+                            <a class="nav-link" href="#"
+                              ><i class="fa fa-twitter" aria-hidden="true"></i
+                            ></a>
+                          </li>
+                          <li class="nav-item socials">
+                            <a class="nav-link" href="#"
+                              ><i class="fa fa-youtube" aria-hidden="true"></i
+                            ></a>
+                          </li>
+    
+                    </ul>
+                </div>
+            </div>
+            <div class="name">
+                <input type="text" class="first-name" placeholder="First Name">
+                <input type="text" class="second-name" placeholder="Last Name">    
+            </div>
+            <div class="email">
+                <input type="email" placeholder="Email">
+            </div>
+            <div class="message">
+                <textarea  placeholder="Your Message" cols="30" rows="10"></textarea>
+            </div>
+            <a class="d-flex second " style="text-decoration: none;" href="https://watchnebula.com/thomasfrank">
+                <span class="icon">
+                    <i aria-hidden="true" class="fas fa-message" style="color: white;"></i> 
+                </span>
+                <span class="button-text">
+                    SEND MESSAGE
+                </span>
+            </a>
+        </form>
+    
 
 
 
