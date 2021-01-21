@@ -1,0 +1,482 @@
+/*********************************GENERAL STYLES********************************************/
+body {
+  color: black;
+  margin: 0;
+  padding: 0;
+  font-family: "proxima-nova", sans-serif;
+  height: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 99%;
+  margin: auto;
+}
+.button-text {
+  padding-left: 20px;
+}
+
+/**************************HEADER SECTION************************************/
+.header-area .main_menu .navbar .navbar-brand {
+  padding: 0 1px 0 15px;
+}
+
+.header-area .main_menu .navbar {
+  padding: 35px 0px;
+}
+
+.header-area .main_menu .nav-item .nav-link {
+  font-family: var(--roboto);
+  text-transform: uppercase;
+  color: var(--title-color);
+  font-weight: 100;
+  padding: 10px 25px;
+}
+
+.header-area .main_menu .navbar-nav a:hover {
+  color: white;
+  background: black;
+}
+.elementor-animation-skew:active,
+.elementor-animation-skew:focus,
+.elementor-animation-skew:hover {
+  transform: skew(-10deg);
+}
+
+.elementor-animation-skew {
+  transition-duration: 0.3s;
+  transition-property: transform;
+}
+
+/*****************************FIRST SECTION OF THE MAIN********************************************/
+.main-area .first-section {
+  width: 1349px;
+  height: 730px;
+}
+.main-area .first-section {
+  background-image: linear-gradient(175deg, transparent 93%, white 36.05%),
+    linear-gradient(185deg, transparent 93%, white 36.05%),
+    url("../images/thomas.jpg");
+  background-size: 1349px 730px;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  justify-content: center;
+  perspective: 3px;
+}
+
+.main-area .first-section .first-section-area > h1 {
+  color: #fff;
+  font-family: proxima-nova, Sans-serif;
+  font-size: 65px;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 2.7px;
+}
+
+/******************************SECOND SECTION OF THE MAIN*******************************************/
+.main-area .second-section {
+  width: 1349px;
+  height: 359.36px;
+  color: black;
+  font-family: proxima-nova, Sans-serif;
+  font-size: 42px;
+  font-weight: lighter;
+  line-height: 1.6em;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+
+/********************************THIRD SECTION OF THE MAIN*****************************************/
+
+.main-area .third-section .video-essays .row .title-text > h3 {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.main-area .third-section .video-essays .row .description {
+  font-size: 20px;
+  line-height: 1.6em;
+}
+
+.main-area .third-section .video-essays .row .buttons {
+  justify-content: space-between;
+}
+.main-area .third-section .video-essays .row .buttons .first,
+.second {
+  width: 301.39px;
+  height: 47px;
+  background-color: #e45757;
+  text-decoration: inherit;
+  letter-spacing: 0;
+  fill: #fff;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  border-radius: 5px;
+}
+.main-area .third-section .video-essays .row .buttons > a:hover {
+  background-color: #e99898;
+  color: white;
+}
+.main-area .third-section .video-essays .row .buttons .second .icon {
+  flex: 0.1;
+}
+.main-area .third-section .video-essays .row .buttons .first .icon {
+  flex: 0.1;
+}
+.main-area .third-section {
+  margin-bottom: 100px;
+}
+
+/********************************FOURTH SECTION OF THE MAIN******************************************/
+.main-area .fourth-section .row .description {
+  font-size: 20px;
+  line-height: 1.6em;
+}
+
+.main-area .fourth-section .row .title-text > h3 {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.main-area .fourth-section .row .buttons {
+  justify-content: space-between;
+}
+.main-area .fourth-section .row .buttons .first,
+.second {
+  width: 301.39px;
+  height: 47px;
+  background-color: #e45757;
+  text-decoration: none;
+  letter-spacing: 0;
+  fill: #fff;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  border-radius: 5px;
+}
+.main-area .fourth-section .row .buttons > a:hover {
+  background-color: #e99898;
+  color: white;
+}
+.main-area .fourth-section .row .bro {
+  display: flex;
+  align-items: center;
+}
+.main-area .fourth-section .row .bro > img {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.main-area .fourth-section {
+  margin-bottom: 100px;
+}
+
+/*********************************FIFTH SECTION OF THE MAIN*****************************************/
+.main-area .fifth-section .row .description {
+  font-size: 20px;
+  line-height: 1.6em;
+}
+
+.main-area .fifth-section .row .title-text > h3 {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.main-area .fifth-section .row .buttons .first,
+.second {
+  width: 301.39px;
+  height: 47px;
+  background-color: #e45757;
+  text-decoration: inherit;
+  letter-spacing: 0;
+  fill: #fff;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  border-radius: 5px;
+}
+.main-area .fifth-section .row .buttons > a:hover {
+  background-color: #e99898;
+  color: white;
+}
+.main-area .fifth-section .row .customs {
+  height: 80%;
+  margin: auto;
+}
+
+.main-area .fifth-section {
+  margin-bottom: 100px;
+}
+
+/****************************SIXTH SECTION OF THE MAIN****************************************/
+
+.main-area .sixth-section .row .description {
+  font-size: 20px;
+  line-height: 1.6em;
+}
+
+.main-area .sixth-section .row .services {
+  max-width: 449.66px;
+}
+
+.main-area .sixth-section .row .services .image > img {
+  width: 389.66px;
+  height: 389.66px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.main-area .sixth-section .row .buttons .first {
+  width: 100%;
+  height: 47px;
+  background-color: #e45757;
+  text-decoration: inherit;
+  letter-spacing: 0;
+  fill: #fff;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  border-radius: 5px;
+}
+.main-area .sixth-section .row .buttons > a:hover {
+  background-color: #e99898;
+  color: white;
+}
+.main-area .sixth-section {
+  margin-bottom: 100px;
+}
+
+/*******************************FOOTER SECTION****************************************/
+.footer-area {
+  width: 100%;
+  height: 382.69px;
+  background-color: #1b252f;
+}
+.footer-area .all-footer {
+  display: flex;
+  justify-content: center;
+}
+.footer-area .all-footer .front-footer {
+  width: 1149px;
+  height: 100%;
+}
+.footer-area .all-footer .front-footer .subscribe-box {
+  width: 100%;
+  height: 251px;
+  background-image: url(../images/subscribe.jpg);
+  background-size: cover;
+  border: 2px solid #1b252f;
+  color: whitesmoke;
+  align-items: center;
+  justify-content: center;
+}
+.footer-area .all-footer .front-footer .subscribe-box {
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  text-align: center;
+}
+
+.footer-area .all-footer .front-footer .subscribe-box .subscribe-title {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  color: #ffffffde;
+}
+.footer-area
+  .all-footer
+  .front-footer
+  .subscribe-box
+  .subscribe-form
+  .subscribe-input {
+  height: 47px;
+  margin-bottom: 20px;
+  margin-left: 35px;
+  width: 824.19px;
+}
+.footer-area
+  .all-footer
+  .front-footer
+  .subscribe-box
+  .subscribe-form
+  .subscribe-input
+  > input {
+  padding: 6px 16px;
+  border-radius: 5px white;
+  width: 100%;
+}
+.footer-area
+  .all-footer
+  .front-footer
+  .subscribe-form
+  .row
+  .buttons
+  .subscribe-input
+  .first {
+  width: 173.8px;
+  height: 47px;
+  background-color: #e45757;
+  text-decoration: inherit;
+  letter-spacing: 0;
+  fill: #fff;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  border-radius: 5px;
+}
+.footer-area
+  .all-footer
+  .front-footer
+  .subscribe-form
+  .row
+  .buttons
+  .tohover
+  > a:hover {
+  background-color: #e99898;
+  color: white;
+}
+
+.footer-area .all-footer .front-footer .subscribe-box .subscribe-text {
+  display: flex;
+  justify-content: center;
+  color: rgb(212, 203, 203);
+}
+.copyrights {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 50px 20px 20px;
+}
+.copyrights-text {
+  color: #fff;
+  font-family: helvetica, Sans-serif;
+  font-size: 14px;
+  font-weight: 200;
+  text-transform: capitalize;
+  font-style: oblique;
+  margin-right: 50px;
+}
+.copyrights .social-links > ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  margin-left: 30px;
+}
+.copyrights .social-links .socials {
+  margin-right: calc(35px / 2);
+  margin-left: calc(35px / 2);
+}
+/****************************CONTACT PAGE STYLES**************************************/
+.contact-styles {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke;
+  margin: 50px;
+}
+.form-class {
+  width: 50%;
+  height: 100%;
+  background-color: white;
+  box-shadow: 0 0 20px 0 #999;
+  padding: 20px;
+}
+.form-class .name {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.form-class .name > input {
+  flex: 0.48;
+  padding: 5px;
+  border-radius: 5px;
+}
+.form-class .email {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.form-class .email > input {
+  padding: 5px;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.form-class .message {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.form-class .message > textarea {
+  padding: 5px;
+  border-radius: 5px;
+  width: 100%;
+  border: 0.2px solid black;
+}
+
+.form-class .button {
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-class .button > button {
+  padding: 10px 30px;
+  border-radius: 5px;
+  background-color: #e45757;
+  color: white;
+  border: 2px solid white;
+  margin: auto;
+}
+
+.form-class .title {
+  padding-bottom: 20px;
+}
+
+.form-class .title > h3 {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.form-class .title > p {
+  padding: 0;
+}
+
+.form-class .social-media > ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  color: black;
+}

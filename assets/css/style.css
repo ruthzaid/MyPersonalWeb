@@ -1,0 +1,361 @@
+@import url(./partials/_variables.css);
+
+@import url(./partials/_global.css);
+
+.header-area .main_menu .navbar .navbar-brand {
+  padding: 0 28px 0 70px;
+}
+
+.header-area .main_menu .navbar {
+  padding: 16px 140px;
+}
+
+.header-area .main_menu .nav-item .nav-link {
+  font-family: var(--roboto);
+  text-transform: uppercase;
+  color: var(--title-color);
+  font-weight: 500;
+  padding: 20px;
+}
+
+.header-area .main_menu .navbar-nav .active a {
+  color: #854fee;
+}
+
+.header-area .main_menu .navbar-nav a:hover {
+  color: #854fee;
+}
+
+.site-main .site-banner .site-title h3 {
+  padding-top: 15%;
+  font-weight: 500;
+}
+
+.site-main .site-banner .site-title h1 {
+  font-size: 5rem;
+}
+
+.site-main .site-banner .site-title h4 {
+  font-size: 1.7rem;
+}
+
+.site-main .site-banner .banner-image img {
+  padding: 7rem 0;
+  width: 90rem;
+}
+
+.site-main .site-banner {
+  margin-bottom: 50px;
+}
+
+.site-main .about-area {
+  padding: 8rem 5rem;
+}
+
+.site-main .about-area .about-title span {
+  display: block;
+  font: normal bold 49px/60px var(--roboto);
+  letter-spacing: 21px;
+}
+
+.site-main .brand-area {
+  padding: 8rem 5rem;
+}
+
+.site-main .brand-area .first-row .col-lg-4 {
+  display: flex;
+  justify-content: center;
+}
+
+.site-main .brand-area .first-row .col-lg-4 .single-brand {
+  border: 1px solid var(--border-color);
+  text-align: center;
+  padding: 1.8rem 0rem;
+  margin: 0.9rem 0;
+  width: 180px;
+  height: 100px;
+  cursor: pointer;
+  transition: transform 0.4s ease;
+}
+
+.site-main .brand-area .first-row .col-lg-4 .single-brand img {
+  width: 50%;
+}
+
+.site-main .brand-area .first-row .col-lg-4 .single-brand:hover {
+  box-shadow: var(--box-shadow);
+  transform: scale(1.1);
+}
+
+.site-main .brand-area .first-row .col-lg-4 .single-brand:hover img {
+  filter: brightness(0.1);
+}
+
+.site-main .brand-area .experience-area {
+  padding-left: 1rem;
+}
+
+.site-main .brand-area .experience-area .years-area span {
+  display: block;
+  font: normal 500 22px/30px var(--roboto);
+}
+
+.site-main .brand-area .experience-area .years-area {
+  padding: 2rem;
+  width: 40rem;
+  height: 18rem;
+  position: relative;
+}
+
+.site-main .brand-area .experience-area .years-area .years {
+  padding-top: 0;
+  font-size: 5rem;
+  color: var(--primary-color2);
+  font-family: var(--roboto);
+  z-index: 2;
+}
+
+.site-main .brand-area .experience-area .call-area {
+  padding: 4rem;
+  width: 40rem;
+  height: 18rem;
+  position: relative;
+}
+
+.site-main .brand-area .experience-area .call-area .call-now {
+  display: block;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+/* ******************************************************************************* */
+.site-main .services-area {
+  padding: 0rem 5rem 8rem;
+}
+
+.site-main .services-area .services-title {
+  padding-bottom: 0 14rem;
+}
+.site-main .services-area .services-title > h1 {
+  font-size: 35px;
+}
+
+.site-main .services-area .services-list .services {
+  padding: 1.8rem 0rem;
+  margin: 5rem 0.5rem;
+  width: 16rem;
+  background: rgb(243, 239, 239);
+  transition: box-shadow 0.7s ease;
+}
+
+.site-main .services-area .services-list .services:hover {
+  box-shadow: var(--box-shadow);
+}
+
+/* **************************************************************** */
+
+.site-main .project-area {
+  padding: 4rem 0;
+}
+
+.site-main .project-area .button-group button {
+  background: transparent;
+  border: none;
+  font: normal 700 16px/130px var(--roboto);
+  text-transform: uppercase;
+}
+
+.site-main .project-area .button-group button + button {
+  padding-left: 2rem;
+}
+
+.site-main .project-area .grid .our-project > .title h1 {
+  font: normal 700 30px/12px var(--roboto);
+}
+
+.site-main .project-area .grid .our-project .img:hover {
+  box-shadow: var(--box-shadow);
+  filter: brightness(1.1);
+}
+
+/* ****************************************************************** */
+
+.site-main .client-area {
+  padding: 4rem 0;
+}
+
+.site-main .client-area .title-h1 {
+  padding: 20px 7rem;
+}
+
+.site-main .client-area .client {
+  background: rgb(243, 239, 239);
+  box-shadow: var(--box-shadow);
+  margin: 3rem 10px;
+}
+
+.site-main .client-area .client .client-img {
+  padding: 2rem;
+}
+
+.site-main .client-area .client .about-client {
+  padding: 2rem;
+}
+
+.site-main .client-area .client .about-client > h4 {
+  font: normal 700 21px/20px var(--roboto);
+}
+
+.site-main .client-area .client .about-client > p {
+  font-size: 14px;
+}
+
+.site-main .client-area .carousel {
+  display: flex;
+  justify-content: center;
+}
+
+/* ********************************************************************** */
+
+.site-main .subscribe-area {
+  padding: 4rem 0;
+}
+
+.site-main .subscribe-area .subscribe {
+  background: url(../images/subscribe-bg.png);
+  padding: 10rem 0;
+  margin: 3rem auto;
+}
+
+.site-main .subscribe-area .subscribe .subscribe-title > h4 {
+  color: white;
+  font: normal 700 35px/20px var(--roboto);
+  padding: 1rem 0;
+}
+
+.site-main .subscribe-area .subscribe .subscribe-title > p {
+  color: white;
+  font: normal 500 15px/15px var(--roboto);
+  padding: 0.5rem 0;
+}
+
+.site-main .subscribe-area .subscribe .input-textbox input {
+  background: transparent;
+  width: 400px;
+  padding: 1.5rem 1rem;
+  color: white;
+  font: normal 500 17px/20px var(--roboto);
+}
+.site-main .subscribe-area .subscribe .input-textbox input::placeholder {
+  color: white;
+}
+
+.site-main .subscribe-area .subscribe .btn-submit button {
+  background: white;
+  color: black;
+  padding: 0.8rem 2rem;
+}
+
+/* ****************************************************************** */
+
+.footer-area {
+  padding: 4rem 0 6rem;
+}
+.footer-area .social {
+  padding: 3rem;
+}
+.footer-area .social > h5 {
+  font: normal 500 20px/20px var(--roboto);
+  margin-bottom: 2rem;
+}
+
+.footer-area .social > a {
+  padding: 3rem;
+}
+
+.footer-area .copyright {
+  padding-bottom: 0.4rem;
+}
+
+.footer-area .copyright > p {
+  font: normal 300 15px/20px var(--roboto);
+  color: grey;
+}
+
+/* if the viewport is equal to 340px or less than that */
+@media only screen and (max-width: 340px) {
+  .header_area .main-menu .navbar,
+  .header_area .main-menu .navbar .navbar-brand,
+  .site-main .subscribe-us-area .subscribe .subscribe-title,
+  .site-main .subscribe-us-area .subscribe .subscribe-title p,
+  h4,
+  .site-main .services-area,
+  .site-main .subscribe-us-area .subscribe {
+    padding: 2%;
+    margin: 0%;
+  }
+
+  .site-main .site-banner .site-title h1 {
+    font-size: 41px;
+  }
+
+  .site-main .subscribe-us-area .subscribe form .input-textbox input {
+    width: 15rem !important;
+  }
+
+  .site-main > .services-area .services {
+    width: 13rem;
+  }
+}
+
+/* if the viewport is equal to 340px or less than that */
+@media only screen and (max-width: 792px) {
+  .site-main .about-area .about-title h2 > span {
+    font-size: 31px;
+    letter-spacing: 10px;
+  }
+
+  .site-main .brand-area .experience-area .years-area {
+    padding-left: 1%;
+    width: 49%;
+  }
+
+  .site-main .brand-area .experience-area .bg-panel {
+    margin-left: 30%;
+    width: 80%;
+  }
+
+  .site-main .brand-area .experience-area .call-area {
+    padding-left: 3%;
+  }
+
+  .site-main .project-area .button-group button {
+    font: normal 500 18px/40px var(--roboto);
+  }
+
+  .site-main .about-area .about-title p {
+    padding: 0%;
+  }
+
+  .site-main .subscribe-us-area .subscribe form .input-textbox input {
+    width: 20rem;
+    margin: 5%;
+  }
+}
+
+/* if the viewport is equal to 1910px or less than that */
+@media only screen and (max-width: 1910px) {
+  .header_area .main-menu .navbar {
+    padding: 1rem;
+  }
+
+  .container {
+    max-width: 90%;
+  }
+
+  .site-main .brand-area,
+  .site-main .services-area .services-title,
+  .site-main .about-area {
+    padding: 3% 4%;
+  }
+}
